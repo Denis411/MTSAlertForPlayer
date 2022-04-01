@@ -13,6 +13,7 @@
 		675D4E2827F725BF003E9896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675D4E2627F725BF003E9896 /* Main.storyboard */; };
 		675D4E2A27F725C2003E9896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675D4E2927F725C2003E9896 /* Assets.xcassets */; };
 		675D4E2D27F725C2003E9896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675D4E2B27F725C2003E9896 /* LaunchScreen.storyboard */; };
+		675D4E3527F72614003E9896 /* AlertWithMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D4E3427F72614003E9896 /* AlertWithMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		675D4E2927F725C2003E9896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675D4E2C27F725C2003E9896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		675D4E2E27F725C2003E9896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675D4E3427F72614003E9896 /* AlertWithMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				675D4E2027F725BF003E9896 /* AppDelegate.swift */,
 				675D4E2227F725BF003E9896 /* SceneDelegate.swift */,
 				675D4E2427F725BF003E9896 /* ViewController.swift */,
+				675D4E3427F72614003E9896 /* AlertWithMessage.swift */,
 				675D4E2627F725BF003E9896 /* Main.storyboard */,
 				675D4E2927F725C2003E9896 /* Assets.xcassets */,
 				675D4E2B27F725C2003E9896 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				675D4E2527F725BF003E9896 /* ViewController.swift in Sources */,
 				675D4E2127F725BF003E9896 /* AppDelegate.swift in Sources */,
+				675D4E3527F72614003E9896 /* AlertWithMessage.swift in Sources */,
 				675D4E2327F725BF003E9896 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVH7P8Y4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MTSAlertForPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XVH7P8Y4Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MTSAlertForPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
